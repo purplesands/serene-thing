@@ -23,7 +23,7 @@ body {
 }
 
 #about-box{
-  text-align:justify;
+  font-size:.9em;
 }
 
 .black-box{
@@ -64,12 +64,15 @@ body {
 }
 
 .title{
+  -webkit-text-fill-color: white; 
+  -webkit-text-stroke-width: .7px;
+  -webkit-text-stroke-color:  #392759;
   font-family: 'IBM Plex Serif', sans-serif;
   vertical-align: middle;
   font-size:2em;
   margin-left:.5em;
   letter-spacing: .25em;
-  text-shadow:1px 1px#F9EAE1;
+  text-shadow:2px 3px#F9EAE1;
 }
 #main-container{
   display:flex;
@@ -105,15 +108,15 @@ canvas {
   border:1px solid red;
 }
 
-.cloud-box{
+.cloud-box, .summary-box, .sun-box{
   color:red;
   font-style: italic;
 }
 
-.summary-box{
+/* .summary-box{
   color:red;
   font-style: italic;
-}
+} */
 
 .post-container{
   margin:1em;
